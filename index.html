@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/a93a175b10.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <style>
+      body {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+    <div class="container mx-auto lg:px-24 px-8 my-8">
+      <div class="navbar bg-base-500">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            >
+              <li><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Pages</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li>
+              
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-xl">Hockey’s</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+          
+               
+        </div>
+        <div class="space-x-6 hidden lg:flex text-black lg:font-semibold">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Pages</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="navbar-end space-x-5">
+          <div>
+            <img class="hidden lg:flex" src="Images/Vector.png" alt="">
+          </div>
+          
+          <a class="btn text-white bg-[#FF4240]">Get Ticket</a>
+        </div>
+      </div>
+    </div>
+    <div class="container mx-auto lg:px-24 px-8 ">
+      <div class="carousel w-full">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="Images/1.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a> 
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a> 
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a> 
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide4" class="carousel-item relative w-full">
+          <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle">❮</a> 
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+      <div class="lg:h-[10vh] w-1/2 bg-black mx-auto sm:h-[3vh]w-1/2mb-20 -translate-y-20">
+        <h3 class="text-white font-bold text-xl text-center">Meet all the heroes from the field</h3>
+        <p class="text-white font-normal text-center">we are the best</p>
+
+      </div>
+
+      </div>
+    </div>
+    <div class="bg-white">
+      <h2 class="text-1xl font-extrabold text-center lg:text-3xl lg:text-center lg:font-extrabold">Professional Hockeys Club</h2>
+      <p class="text-1xl text-center">we are the best of all our club is one of the finest club in this area </p>
+    </div>
+    <div class="mt-12 grid grid-cols-1 gap-6 lg:grid-cols-4">
+      <div class="flex flex-col items-center justify-center space-y-4">
+      <div class="radial-progress " style="--value:70;color: #FF4240;" role="progressbar">70</div>
+    
+      <h3 class="text-xl font-extrabold">Prayer Facility</h3>
+      <p class="font-extrabold">we give the best support and big room <br>meals and everything.</p>
+      </div>
+      <div class="flex flex-col items-center justify-center space-y-4">
+      <div class="radial-progress " style="--value:70 ;color:#49D293;" role="progressbar">70</div>
+    
+      <h3 class="text-xl font-extrabold">Experienced Coach</h3>
+      <p class="font-extrabold">we have the best coach <br>have best from the world.</p>
+      </div>
+      <div class="flex flex-col items-center justify-center space-y-4">
+      <div class="radial-progress " style="--value:70; color: #FFB546;" role="progressbar">70</div>
+    
+      <h3 class="text-xl font-extrabold">Senior Player</h3>
+      <p class="font-extrabold">we have high lavel of  <br>senior player from the world.</p>
+      </div>
+      <div class="flex flex-col items-center justify-center space-y-4">
+      <div class="radial-progress " style="--value:70; color: #4C8DF1;" role="progressbar">70</div>
+    
+      <h3 class="text-xl font-extrabold">Training Ground</h3>
+      <p class="font-extrabold">we have the best training <br>and big space .</p>
+      </div>
+    </div>
+    <div class=" mt-12 bg-white ">
+      <h2 class="text-xl font-extrabold text-center">Program Sections</h2>
+      <p class="font-extrabold text-center">The average NHL hockey game length is about 60 minutes. There are three 20-minute periods in a <br> game with intermissions after the first and secon <br>Each intermission lasts 18 minutes during NHL games, but may be shorter in other leagues.</p>
+    </div>
+   <div class="mt-12 flex justify-center ">
+    <div class="flex gap-6 ">
+      <div class="card w-96 bg-base-100 shadow-xl image-full">
+        <figure><img src="Images/2.png" alt="Shoes" /></figure>
+        <div class="card-body">
+          <h2 class="card-title text-center">Junior Program</h2>
+          <p>we have a huge Junior Program section we train them well</p>
+          <div class="card-actions justify-start">
+            <button class="btn btn-primary bg-[#FF4240] text-white">Register Now!</button>
+          </div>
+        </div>
+    </div>
+    <div>
+      <div class="card w-96 bg-base-100 shadow-xl image-full">
+        <figure><img src="Images/3.png" alt="Shoes" /></figure>
+        <div class="card-body">
+          <h2 class="card-title text-center">Teenager Program</h2>
+          <p>we have a huge space for teenager</p>
+          <div class="card-actions justify-start">
+            <button class="btn btn-primary bg-[#FF4240] text-white">Register Now!</button>
+          </div>
+        </div>
+    </div>
+   </div>
+   </div>
+   </div>
+  </div>
+  <div class="mt-12 relative flex justify-center">
+    <img  src="Images/4.png" alt="">
+    <div class="absolute top-[50%] left-[20%]">
+      <h3 class="text-xl text-white">Professional Program</h3>
+      <p class="font-extrabold text-white">we work hard for the player and we succes</p>
+      <button class="bg-[#FF4240] gap-2 w-[100px] ">Register Now!</button>
+    </div>
+  </div>
+  </div>
+  </div>
+  <div class="mt-12 gap-7 grid grid-cols-1 lg:grid-cols-2 grid-rows-3 "> 
+    <div class="card card-side bg-[#1313181A] shadow-xl ">
+      <figure><img src="Images/5.png" alt="Movie"/></figure>
+      <div class="card-body">
+        <div class="flex gap-4">
+          <i class="fa-solid fa-star">5</i>
+        <i class="fa-solid fa-eye">300</i>
+        <i class="fa-solid fa-heart">50</i>
+        </div>
+        <div>
+          <h3 class="font-extrabold">World Cup Flags jacket.</h3>
+          <p>best jacket for world-cup</p>
+        </div>
+        <div class="flex gap-5">
+          <h5 class="text-[#FF4240]">Price - $22.00</h5>
+          <i class="fa-solid fa-truck"> Delivery Free</i>
+        </div>
+        </div>
+      </div>
+      <div class="card card-side bg-[#1313181A] shadow-xl ">
+        <figure><img src="Images/6.png" alt="Movie"/></figure>
+        <div class="card-body">
+          <div class="flex gap-4">
+            <i class="fa-solid fa-star">5</i>
+          <i class="fa-solid fa-eye">300</i>
+          <i class="fa-solid fa-heart">50</i>
+          </div>
+          <div>
+            <h3 class="font-extrabold">World Cup Flags </h3>
+            <p>best flag for world-cup</p>
+          </div>
+          <div class="flex gap-5">
+            <h5 class="text-[#FF4240]">Price - $22.00</h5>
+            <i class="fa-solid fa-truck"> Delivery Free</i>
+          </div>
+          </div>
+        </div>
+        <div class="card card-side bg-[#1313181A] shadow-xl ">
+          <figure><img src="Images/7.png" alt="Movie"/></figure>
+          <div class="card-body">
+            <div class="flex gap-4">
+              <i class="fa-solid fa-star">5</i>
+            <i class="fa-solid fa-eye">300</i>
+            <i class="fa-solid fa-heart">50</i>
+            </div>
+            <div>
+              <h3 class="font-extrabold">Cap For Hockeys.</h3>
+              <p>best cap u love it</p>
+            </div>
+            <div class="flex gap-5">
+              <h5 class="text-[#FF4240]">Price - $22.00</h5>
+              <i class="fa-solid fa-truck"> Delivery Free</i>
+            </div>
+            </div>
+          </div>
+          <div class="card card-side bg-[#1313181A] shadow-xl ">
+            <figure><img src="Images/8.png" alt="Movie"/></figure>
+            <div class="card-body">
+              <div class="flex gap-4">
+                <i class="fa-solid fa-star">5</i>
+              <i class="fa-solid fa-eye">300</i>
+              <i class="fa-solid fa-heart">50</i>
+              </div>
+              <div>
+                <h3 class="font-extrabold">World Cup jersy.</h3>
+                <p>best jersy for world-cup</p>
+              </div>
+              <div class="flex gap-5">
+                <h5 class="text-[#FF4240]">Price - $22.00</h5>
+                <i class="fa-solid fa-truck"> Delivery Free</i>
+              </div>
+              </div>
+            </div>
+            <div class="card card-side bg-[#1313181A] shadow-xl ">
+              <figure><img src="Images/9.png" alt="Movie"/></figure>
+              <div class="card-body">
+                <div class="flex gap-4">
+                  <i class="fa-solid fa-star">5</i>
+                <i class="fa-solid fa-eye">300</i>
+                <i class="fa-solid fa-heart">50</i>
+                </div>
+                <div>
+                  <h3 class="font-extrabold">World Cup healmeat.</h3>
+                  <p>best healmeat for u</p>
+                </div>
+                <div class="flex gap-5">
+                  <h5 class="text-[#FF4240]">Price - $22.00</h5>
+                  <i class="fa-solid fa-truck"> Delivery Free</i>
+                </div>
+                </div>
+              </div>
+              <div class="card card-side bg-[#1313181A] shadow-xl ">
+                <figure><img src="Images/10.png" alt="Movie"/></figure>
+                <div class="card-body">
+                  <div class="flex gap-4">
+                    <i class="fa-solid fa-star">5</i>
+                  <i class="fa-solid fa-eye">300</i>
+                  <i class="fa-solid fa-heart">50</i>
+                  </div>
+                  <div>
+                    <h3 class="font-extrabold">World Cup football.</h3>
+                    <p>best one u love it</p>
+                  </div>
+                  <div class="flex gap-5">
+                    <h5 class="text-[#FF4240]">Price - $22.00</h5>
+                    <i class="fa-solid fa-truck"> Delivery is free</i>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-20 mx-auto bg-[#13131808] flex gap-6 items-center justify-center border-8 h-50 w-96">
+      <h3 class="font-extrabold">Social Media</h3>
+      <i class="fa-solid fa-x "></i>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-reddit"></i>
+
+
+    </div>
+
+     <div class="mt-14">
+      <footer class="footer p-10 bg-black text-base-content text-white">
+        <nav>
+          <header class="footer-title text-xl font-extrabold">Get In Touch</header> 
+          <p>we are always for u</p>
+          <i class="fa-solid fa-envelope font-semibold"> hii@yahoo.com</i>
+          <i class="fa-solid fa-mobile font-semibold"> +000009999</i>
+        </nav> 
+        <nav>
+          <header class="footer-title">Company</header> 
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav> 
+        <nav>
+          <header class="footer-title">Legal</header> 
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav>
+      </footer> 
+      <footer class="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
+        <aside class="items-center grid-flow-col">
+          
+        <nav class="md:place-self-center md:justify-self-end">
+          <div class="grid grid-flow-col gap-4">
+            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg></a>
+            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></a>
+            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
+          </div>
+        </nav>
+      </footer>
+     </div>
+  </body>
+</html>
